@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+/* Hero section */
+
+.hero-section {
+    height: 350px;
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;    
+}
+
+.title {
+    background-color: #1D3557;
+    font-size: 28px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.subtitle {
+    background-color: #457B9D;    
+    font-size: 18px;
+    width: 400px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+/* Activity section */
+
+.activity-section {
+    height: 400px;
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity-title {
+    margin: 20px 0 40px 0;
+    font-size: 24px;
+    color: #1D3557;
+}
+
+.images-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.activity-img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.activity-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.activity-subtitle {
+    font-size: 16px;
+    color: #1D3557;
+    font-size: normal;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.activity-description {
+    width: 250px;
+    margin: 10px auto;
+    color: #1D3557;
+    font-size: 16px;
+}
+
+/* Guide section */
+
+.guide-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.card {
+    background-color: #A8DADC;
+    border-radius: 10px;
+    width: 500px;
+    border-bottom: 8px solid #1D3557;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.card-img {
+    width: 180px;
+}
